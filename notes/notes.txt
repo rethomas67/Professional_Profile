@@ -1,0 +1,5 @@
+steps: npm create vite@4.4.1
+npm i
+npm run dev
+package.json edits
+vite.config.js edits
