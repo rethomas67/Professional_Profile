@@ -3,3 +3,18 @@ npm i
 npm run dev
 package.json edits
 vite.config.js edits
+
+Routes
+useState, useEffect
+Forms 
+eventHandling
+props, useRef
+contdl Rendering
+
+project start off with prototype of route destinations
+Routes -- default page , route to each link
+style navbar, footer About Page
+complete links of footer
+<header>
+<body>
+<footer>
