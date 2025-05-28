@@ -18,3 +18,11 @@ complete links of footer
 <header>
 <body>
 <footer>
+
+google fonts 
+npm i @fontsource/tangerine
+
+favorite icons
+npm i react-icons
+
+rafce - skeleton of jsx component
