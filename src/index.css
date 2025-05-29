@@ -1,3 +1,9 @@
 :root {
   margin: 5px;
 }
+
+/*set default css for the body content vh for the viwport used*/
+.content {
+  padding-top: 15px;
+  height: 70vh;
+}

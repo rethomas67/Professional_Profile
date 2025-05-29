@@ -1,16 +1,18 @@
 /*parent container for the navbar with minimal styling, google font for the title
  and setting the display to flex*/
 .Navbar_Container {
-  margin: 5px;
+  margin: 15px 5px;
   padding: 0;
   display: flex;
-  height: 200px;
+  height: 100px;
   font-family: "Tangerine", sans-serif;
+  width: 100%;
 }
 /*set the width, color, font size and weight, alignment horizontal and vertical
 and a white border to the right*/
 .Nav_Title {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0 5px;
   width: 500px;
@@ -21,6 +23,10 @@ and a white border to the right*/
   align-items: center;
   justify-content: center;
   border-right: 3px solid white;
+}
+/*align the text when using devices with smaller widths*/
+p {
+  text-align: center;
 }
 /*set the flex direction to row for the menu links, 
 set flex-wrap to wrap to allow for justify-content and align-content settings*/
@@ -45,4 +51,9 @@ set flex-wrap to wrap to allow for justify-content and align-content settings*/
 }
 a {
   text-decoration: none;
+}
+@media (max-width: 480px) {
+  .Navbar_Container {
+    padding: 5px 0;
+  }
 }

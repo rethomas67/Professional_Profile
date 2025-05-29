@@ -1,0 +1,13 @@
+.Social_Links {
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+  margin: 0;
+  padding: 0;
+  /*align-content: flex-end;*/
+  align-items: flex-end;
+  justify-content: center;
+}
+a {
+  margin-right: 20px;
+}
