@@ -1,13 +1,13 @@
 .Social_Links {
   display: flex;
   flex-direction: row;
-  height: 15vh;
-  margin: 0;
+  height: 50px;
+  margin: 0 5px;
   padding: 15px 0 0 0;
   max-width: 1200px;
-  /*align-content: flex-end;
-  align-items: flex-end;*/
+
   justify-content: center;
+  background-color: #91a3b0;
 }
 a {
   margin-right: 20px;
