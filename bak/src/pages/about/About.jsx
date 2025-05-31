@@ -1,6 +1,6 @@
 //import React from "react";
 //import "./assets/styles/about.css";
-import img from "./assets/images/work_photo.jpg";
+//import img from "./assets/images/work_photo.jpg";
 //import Pages from "../../components/aboutdetails/Pages.jsx";
 
 const About = () => {

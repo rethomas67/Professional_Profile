@@ -17,3 +17,15 @@
   font-weight: bold;
   color: #800020;
 }
+/*
+@media (max-width: 768px) {
+  .container {
+    width: 740px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 470px;
+  }
+}*/

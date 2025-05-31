@@ -1,0 +1,18 @@
+.User_Body {
+  padding: 0 20px;
+}
+.My_Background {
+  text-align: left;
+  text-wrap: wrap;
+  max-width: 1200px;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+.About_Photo {
+  width: 50%;
+  max-width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover; /*maintains aspect ratios,resulting in cropping to fit*/
+}
