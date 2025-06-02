@@ -4,11 +4,9 @@ import "./assets/styles/portfolio.css";
 
 const Portfolio = () => {
   return (
-    <div className="container">
-      <div className="User_Body">
-        <div className="title">Portfolio</div>
-        <Projects />
-      </div>
+    <div className="User_Body">
+      <div className="title">Portfolio</div>
+      <Projects />
     </div>
   );
 };

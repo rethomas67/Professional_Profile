@@ -3,7 +3,9 @@ import projects from "./assets/scripts/projects.js";
 import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
+  /*handle state for project animation*/
   const [hoverId, setHoverId] = useState(null);
+  /*open the deployed app in a new tab*/
   const handleClick = (url) => {
     window.open(url, "_blank");
   };
@@ -11,11 +13,14 @@ const Projects = () => {
     <>
       <div className="Projects_Container">
         <div className="Project_Item">
+          {/*iterate through the projects and id them with a key*/}
           {projects.map((project) => (
             <>
               <div key={project.id} className="Project_Content">
                 <div className="Project_Description">
+                  {/*Project Name*/}
                   <div className="Project_Detail ">{project.title}</div>
+                  {/*link to my github project*/}
                   <a
                     href={project.github}
                     rel="noreferrer"
@@ -25,7 +30,11 @@ const Projects = () => {
                     <FaGithub size={"1.3rem"} className="Project_Detail" />
                   </a>
                 </div>
-
+                {/*the project image*/}
+                {/*toggle between a static and animated image on hover
+                    identified by the state of the hoverId-src*/}
+                {/*activate deactivate the animation mouseenter/leave*/}
+                {/*set the transition of zooming in and out ease slow fast slow speed-style*/}
                 <img
                   className="Project_Image"
                   src={
