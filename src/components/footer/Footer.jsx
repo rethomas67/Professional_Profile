@@ -10,7 +10,7 @@ const Footer = () => {
           href="https://github.com/rethomas67"
           rel="noreferrer"
           target="_blank"
-          alt="Gothub"
+          alt="Github"
         >
           <FaGithub size={"2rem"} />
         </a>

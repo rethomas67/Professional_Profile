@@ -1,10 +1,10 @@
 /*parent container for the navbar with minimal styling, google font for the title
  and setting the display to flex*/
 .Navbar_Container {
-  margin: 15px 5px;
+  margin: 0 5px;
   padding: 0;
   display: flex;
-  height: 100px;
+  height: 75px;
   font-family: "Tangerine", sans-serif;
   max-width: 1200px;
 }
@@ -51,4 +51,9 @@ set flex-wrap to wrap to allow for justify-content and align-content settings*/
 }
 a {
   text-decoration: none;
+}
+@media (max-width: 480px) {
+  .Nav_links {
+    font-size: 1.5rem;
+  }
 }

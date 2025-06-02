@@ -1,0 +1,79 @@
+/*flex row to layout across the device screen and wrap*/
+.Projects_Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  max-width: 1200px;
+
+  margin: 0;
+  padding: 0;
+}
+/*object-fit to maintain aspect ratio of images with a fixed height*/
+img {
+  border: 2px solid transparent;
+  object-fit: cover;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 250px;
+}
+/*project item to map each project's details*/
+.Project_Item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: auto;
+  padding: 0;
+  margin: 0;
+}
+/*Contains the projects attribute flex column to position elements vertically
+width 48% to space between the next flex row project*/
+.Project_Content {
+  margin: 0 0 10px 0;
+  row-gap: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 48%;
+  justify-content: center;
+  align-content: center;
+}
+/*flex column give a bit of space between flex item column*/
+.Project_Description {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  justify-content: center;
+  align-content: center;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #003262;
+}
+/*project title and github icon container back to flex row*/
+.Project_Detail {
+  display: flex;
+  flex-direction: row;
+}
+/*give some space vertically at the end of the project-content container*/
+.Project_Type {
+  display: flex;
+  row-gap: 15px;
+  font-size: 1rem;
+}
+/*change the project type font to fit for smaller screens*/
+@media (max-width: 480px) {
+  .Project_Type {
+    font-size: 0.8rem;
+  }
+}
+/*
+ @media (max-width: 768px and 480) {
+    .account-container {
+      width:80%;
+      padding: 10px;
+      margin: 50px auto;
+    }*/
