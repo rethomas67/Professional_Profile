@@ -26,3 +26,23 @@ favorite icons
 npm i react-icons
 
 rafce - skeleton of jsx component
+
+MERN addition
+move majority of code to client folder
+
+root directory npm init
+entry point "server/server.js",
+
+server directory npm init
+entry point server.js
+ npm i nodemon
+ npm i mongoose
+ add scripts to run
+ create server.js
+ create connection.js
+ npm i express
+ client install dotenv
+  npm i @apollo/server
+  npm i graphql
+  create a model
+  pull in typedefs and resolver schemas
