@@ -4,23 +4,23 @@ const { GraphQLScalarType, Kind } = require("graphql");
 const typeDefs = `
 #graphql 
     scalar Date
-    type Messages{
+    type Message{
     _id: ID
     name: String
     email: String
     message: String
-    postDate:Date
+    postDate: Date
     }
 
      # Important for useQuery: We define our Query type to inform our entry points
     # The Query type is built-in to GraphQL, so we only need to extend it to include which kinds of information we plan to request in our application
     type Query{
-        messages: [Messages]!
+        messages: [Message]!
     }
     
      # Important for useMutation: We define our Mutation type to inform our entrypoints
     type Mutation{
-        addMessage(name: String!, email: String!, message: String!) : Messages
+        addMessage(name: String!, email: String!, message: String!) : Message
     }
    `;
 

@@ -92,7 +92,9 @@ const Contact = () => {
           />
           <button type="submit">Submit</button>
           {/*error conditional true display the error message*/}
-          <button onClick={{ handeleClick }}>View Messages</button>
+          <button style={{ marginLeft: "15px" }} onClick={handeleClick}>
+            View Messages
+          </button>
           {errorMessage && <div>{errorMessage}</div>}
         </form>
       </div>

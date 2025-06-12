@@ -7,7 +7,7 @@ import About from "./pages/about/About";
 import Portfolio from "./pages/portfolio/Portfolio.jsx";
 import Contact from "./pages/contact/Contact.jsx";
 import Resume from "./pages/resume/Resume.jsx";
-import Message from "./pages/Message.jsx";
+import Message from "./pages/message/Message.jsx";
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([

@@ -30,7 +30,12 @@ const resolvers = {
   Date: dateScalar,
   Query: {
     messages: async () => {
-      return Messages.find().sort({ postDate: -1 });
+      const result = await Messages.find().sort({ postDate: -1 });
+
+      return result.map((msg) => ({
+        ...msg.toObject(),
+        _id: msg._id.toString(),
+      }));
     },
   },
   Mutation: {

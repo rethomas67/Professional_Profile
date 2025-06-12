@@ -93,14 +93,10 @@ const Pages = (paragraph) => {
         isBold: false,
       });
     }
-    console.log(parseParagraph);
+
     return data;
   };
   test(paragraph.paragraph);
-  console.log(paragraph.paragraph);
-  /*
-  
-          */
 
   return (
     <>
