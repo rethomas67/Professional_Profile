@@ -4,10 +4,12 @@
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
   "main": "server/server.js",
   "scripts": {
-    "start": "node backend/server.js",
+    "start": "node server/server.js",
     "server": "nodemon server/server.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "render-build": "npm install && npm run build"
   },
   "author": "",
   "license": "ISC",
