@@ -9,7 +9,7 @@ export const frontEnd = [
   },
   {
     id: 3,
-    proficiency: "JavaScrip",
+    proficiency: "JavaScript",
   },
   {
     id: 4,
