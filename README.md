@@ -1,14 +1,8 @@
 # Professional Profile
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
 ## Description
 
-Currently, two official plugins are available:
-My Professional Proile is a project which uses React, GraphQL queries and mutations to fetch and modify data. Requests communicate with the Apollo Server. The deployment uses MongoDB Atlas and Heroku.
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+My Professional Proile is a project which uses React, GraphQL queries and mutations to fetch and modify data. Requests communicate with the Apollo Server. The deployment uses MongoDB Atlas and Heroku
 
 ## Installation
 
@@ -31,7 +25,7 @@ Th Contact page allows the user to enter into the fields Name, Email, and Messag
 The Resume page has a link to my Resume and a list of my proficiencies.
 
 The Footer contains links to Github, and LinkedIn.
-Add commentMore actions
+
 GitHub Repository: https://github.com/rethomas67/Professional_Profile
 Live page link: https://professional-profile-68d8f95fe2c2.herokuapp.com/
 
